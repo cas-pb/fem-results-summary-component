@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+<div class="container">
+  <div class="left-section">
+    <p class="left-title">Your Result</p>
+    <div class="result">
+      <p class="total-score">76</p>
+      <p class="overall-result-score">of 100</p>
+    </div>
+
+    <p class="result-text">Great</p>
+    <p class="result-description">You scored higher than 65% of the people who have taken these tests.</p>
+  </div>
+  <div class="right-section">
+    <p class="right-title">Summary</p>
+
+    <table>
+      <tr class="skill-one">
+        <td class="skill-one-title">
+          <img src="./assets/images/icon-reaction.svg" alt="">Reaction</td>
+        <td class="score"><p class="score">80</p> 
+          <p class="overall-score">/ 100</p></td>
+      </tr>
+
+      <tr class="skill-two">
+        <td class="skill-two-title">
+          <img src="./assets/images/icon-memory.svg" alt="">Memory</td>
+        <td class="score"><p class="score">92</p> 
+          <p class="overall-score">/ 100</p></td>
+      </tr>
+
+      <tr class="skill-three">
+        <td class="skill-three-title">
+          <img src="./assets/images/icon-verbal.svg" alt="">Verbal</td>
+        <td class="score"><p class="score">61</p> 
+          <p class="overall-score">/ 100</p></td>
+      </tr>
+
+      <tr class="skill-four">
+        <td class="skill-four-title">
+          <img src="./assets/images/icon-visual.svg" alt="">Visual</td>
+        <td class="score"><p class="score">72</p> 
+          <p class="overall-score">/ 100</p></td>
+      </tr>
+    </table>
+
+    <button><a href="#">Continue</a></button>
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
